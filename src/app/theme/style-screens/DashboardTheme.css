@@ -1,0 +1,13 @@
+.page-content{
+    width: calc(100% - 300px);
+    margin-left: auto;
+}
+.page-content-items{
+    padding: 30px;
+}
+@media screen and (max-width: 600px) {
+    .page-content {
+        width: 100%;
+        margin-left: auto;
+    }
+}

@@ -1,0 +1,44 @@
+.stepsProgressBar {
+    max-width: 800px;
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.stepsProgressBar .p-step {
+    background: #c4c4c7;
+    color: #fff;
+    padding: 10px;
+    font-weight: 600;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    width: 25%;
+    text-align: center;
+}
+.stepsProgressBar .p-step .indicator{
+    font-size: 20px;
+}
+.stepsProgressBar .p-step.completed{
+    background-color: #FAD02C;
+}
+.stepsProgressBar .p-step:first-child{
+    border-left: none;
+}
+.stepsProgressBar .p-step:last-child
+ {
+    
+    border-right: none;
+}
+@media screen and (max-width: 999px) {
+    .stepsProgressBar .p-step {
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        padding: 3px 10px;
+    }
+    .stepsProgressBar .p-step .indicator{
+        font-weight: 800;
+        margin-right: 5px;
+    }
+}

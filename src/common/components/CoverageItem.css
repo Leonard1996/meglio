@@ -1,0 +1,39 @@
+.title{
+    display: block;
+    text-align: center;
+    padding: 15px;
+    background: #FAD02C;
+    color: #fff;
+    margin-bottom: 10px
+}
+.coverage-item{
+    font-size: 14px;
+    margin-bottom: 5px;
+    border-bottom: none;
+    cursor: pointer;
+    position: relative;
+    padding: 5px;
+    border: 1px solid #ffffff;
+}
+.coverage-item svg { 
+    fill:#FAD02C;
+    margin-right: 5px;
+}
+.coverage-item.disabled{
+    color: grey;
+}
+.coverage-item.selected{
+    background: #f7f5f5;
+    padding: 5px 0px 5px 5px;
+    border-radius: 4px;
+    border: 1px solid #dedede;
+}
+.coverage-item.disabled svg{
+    fill: grey;
+}
+.coverage-item i {
+    position: absolute;
+    right: 4px;
+    color: #FAD02C;
+    font-style: normal;
+}

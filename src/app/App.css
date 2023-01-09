@@ -1,0 +1,122 @@
+@import "theme/style-components/progressBar.css";
+@import "theme/style-screens/login.css";
+@import "theme/style-screens/quote.css";
+@import "theme/style-screens/questionnaire.css";
+
+a, a:hover {
+    color: #FAD02C;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.bg-img {
+    background-image: url(../assets/images/background-login.png);
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-laoding {
+    align-items: center;
+    justify-content: center;
+    min-height: 600px;
+}
+/* ONLY FOR NOW */
+.info-card-rc {
+    display: block;
+    width: 300px;
+}
+.info-card-rc p{
+    margin-bottom: 0;
+    border-bottom: 1px solid #dedede;
+}
+.pdate {
+    
+    
+}
+.pdate span {
+    display: flex;
+    align-items: center;
+    padding:10px 0;
+}
+.pdate svg{
+    width: 20px;
+    height: 20px;
+}
+.quote-card {
+    border-top: 1px solid #FAD02C;
+    background-color: #fbfbf9;
+    padding: 15px;
+}
+.info-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.info-buttons span{
+    padding: 5px;
+    background-color: #8bd4b3;
+    border-radius: 4px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info-buttons span svg {
+    width: 15px;
+    height: 15px;
+    fill:#3c5146;
+}
+.brand-iamge {
+    padding: 30px 0;
+    display: block;
+}
+.brand-iamge img{
+    width: 120px;
+    margin: auto;
+    display: block;
+    height: 120px;
+    object-fit: contain;
+    background-blend-mode: color-burn;
+    mix-blend-mode: multiply;
+}
+.qinfo{
+    display: flex;
+    font-size: 14px;
+}
+.qinfo span:first-child{
+    display: block;
+    width: 40%;
+}
+.qinfo span:last-child{
+    display: block;
+    width: 60%;
+}
+.q-price{
+    font-size: 12px;
+    line-height: 1;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.a-price{
+    font-size: 28px;
+    color: red;
+    font-weight: 700;
+}
+.action-buttons{
+    padding:15px 0;
+}
+.action-buttons button.btn {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+.action-buttons button.btn.btn-success {
+    background-color: #FAD02C;
+}

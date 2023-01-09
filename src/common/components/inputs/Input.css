@@ -1,0 +1,345 @@
+.form-input-container:hover {
+    background-color: #FCFCFB;
+}
+
+.form-input-container {
+   padding: 15px 0;
+}
+
+.form-input-container label {
+    cursor: pointer;
+}
+
+.f-label {
+    color: #6F7176;
+    text-align: center;
+    display: block;
+    font-weight: 700;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+input.form-control {
+    background-color: #FBFAFA;
+    border: 2px solid #CBCBCD;
+    font-weight: 700;
+    color: black;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.date {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+input[type=checkbox] {
+    display: inline;
+    accent-color: #FAD02C;
+    position: relative;
+  
+}
+
+.checkbox-label {
+    display: inline;
+    margin-bottom: 20px;
+}
+
+input.radio {
+    width: 18px;
+    height: 18px;
+    top: 3px;
+    left: 5px;
+    position: relative;
+}
+
+input.radio:checked:after {
+    width: 18px;
+    height: 18px;
+    border-radius: 15px;
+    left: 0;
+    top: -2px;
+    position: relative;
+    background-color: #FAD02C;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 3px solid #FAD02C;
+}
+
+label.f-label.radio-label {
+    color: black;
+}
+
+.item-option, .form-select {
+    text-align: center;
+}
+
+.form-input-container.invalid-input input,
+.form-input-container.invalid-input select,
+.form-input-container input.e-invalid-input,
+.form-input-container.valid-input input.e-invalid-input {
+    border: 2px solid red;
+}
+
+.form-input-container.valid-input input,
+.form-input-container input.e-valid-input,
+.form-input-container.valid-input select
+ {
+    border: 2px solid #FAD02C;
+}
+.form-input-container.invalid-input input:focus,
+.form-input-container.invalid-input select:focus,
+.form-input-container.valid-input input.e-invalid-input:focus
+{
+    box-shadow: 0 0 0 0.25rem rgb(244 67 54 / 20%);
+}
+.form-input-container.valid-input input:focus,
+.form-input-container.valid-input select:focus
+{
+    box-shadow: 0 0 0 0.25rem rgb(72 161 89 / 20%);
+}
+
+.form-input-container.invalid-input {
+    background-color: #fff4f4;
+}
+
+.form-select-dropdown {
+    display: block;
+    width: 96%;
+    max-height: 150px;
+    overflow-x: hidden;
+    position: absolute;
+    background: #fff;
+    z-index: 1;
+    top: 85px;
+}
+
+.form-select-dropdown span {
+    display: block;
+    background: #f0f0f0;
+    padding: 15px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.form-input-container .children {
+    margin-left: 15px;
+    max-width: 40%;
+    min-width: 20%;
+}
+
+p.p-date, label.f-paragraph, p.p-radio {
+    color: #6F7176;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+p.p-radio {
+    text-align: center;
+}
+
+.select-table {
+    border: 15px solid #F5F6FA;
+    overflow-y: scroll;
+    overflow-x: clip;
+    height: 260px;
+
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6F7176;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #58595B;
+}
+
+.select-table-item {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.select-table-item:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.select-table-item:nth-child(odd) {
+    background-color: #F6F6F5;
+}
+
+div.select-table-item:hover {
+    background-color: #c0c0c0;
+}
+div.select-table-item.selected {
+    background-color: #FAD02C;
+    font-weight: 500;
+}
+
+.select.form-select {
+    text-align: center;
+}
+
+.flex-item {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+fieldset {
+    text-align: center;
+}
+
+.col-md-10 {
+    width: 85%;
+    text-align: justify;
+}
+
+input.checkbox-privacy {
+    /* position: relative;
+    left: -6px;
+    top: -37px; */
+}
+
+input.form-control.text {
+    text-align: center;
+}
+
+label.label-privacy {
+    font-size: 12px;
+}
+
+div.header-item {
+    background-color: #EBECEC;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+select#vehicle_month.form-select {
+    width: 55%;
+}
+
+select#vehicle_year.form-select {
+    position: relative;
+    bottom: 92px;
+    left: 110px;
+}
+.address{
+    display: block;
+    width: 65%;
+}
+.house-nr{
+    display: block;
+    width: 25%;
+}
+select#vehicle_owned {
+    position: relative;
+    width: auto;
+    left: 40%;
+    font-size: 25px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+/* FOR THE MOMENT */
+.stopInteraction{
+
+}
+.black-cover{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 50%);
+    top: 0;
+    left: 0;
+    z-index: 12;
+    pointer-events: none;
+    border-radius: 10px;
+}
+.stopInteraction span {
+    width: 250px;
+    height: 100px;
+    position: fixed;
+    z-index: 13;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    font-size: 16px;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    margin-left: -125px;
+    margin-top: -50px;
+    padding: 15px;
+}
+.loading-gif {
+    width: 40px;
+    height: 40px;
+}
+.form-input-container,
+.form-input-container input,
+.form-input-container select
+ {
+    text-align: center;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.extensions{
+
+}
+.extensions ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.extensions ul li {
+    border: 2px solid #ffffff;
+    font-size: .9em;
+    font-weight: 600;
+    padding: 5px 10px 5px 30px;
+    flex-grow: 1;
+    position: relative;
+    background: #ededed;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.extensions ul li:hover {
+    scale: 1.1;
+    z-index: 10;
+}
+.extensions ul li:before {
+    content: "";
+    position: absolute;
+    background-color: #ffffff;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #dedede;
+    left: 9px;
+    top: 8px;
+}
+
+.extensions ul li.active {
+    background-color:#FAD02C;
+    color: #fff;
+}

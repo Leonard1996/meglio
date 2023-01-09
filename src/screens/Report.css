@@ -1,0 +1,52 @@
+.list {
+
+}
+.list .list-controls {
+    margin-bottom: 15px;
+}
+.list .list-ul{
+    list-style: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.list .list-ui {
+    margin-bottom: 30px;
+    background: #f7f7f7;
+}
+.list .brand-iamge {
+    padding: 0;
+}
+.user-data span {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 12px;
+    text-align: center;
+    background: #f0f0f0;
+    border-radius: 10px;
+}
+.user-data div {
+    display: block;
+}
+.user-data div svg {
+    width: 20px;
+    height: 20px;
+    fill: #FAD02C;
+}
+.list .quote-card {
+    align-items: center;
+}
+.other-actions {
+    display: flex;
+}
+.other-actions svg{
+    width: 20px;
+    margin-right: 5px;
+}
+.other-actions button {
+    margin-right: 15px;
+}
+.list .brand-iamge img {
+    width: 85px;
+}

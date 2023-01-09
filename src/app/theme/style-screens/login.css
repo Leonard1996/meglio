@@ -1,0 +1,81 @@
+.Auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FAFAFA;
+}
+
+.Auth-form {
+    width: 420px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding: 30px 0 20px 0;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+.Auth-form-content {
+    padding: 0 12%;
+}
+
+.Auth-form-title {
+    text-align: center;
+    margin: 1em 0;
+    font-size: 24px;
+    color: #8C8E90;
+    font-weight: 500;
+}
+
+.btn-login {
+    background-color: #FAD02C;
+    border-color: #FAD02C;
+}
+
+.btn-login:hover {
+    background-color: #00a451bd !important;
+    border-color: #00a451bd !important;
+
+}
+
+.inp-login {
+    /* border: 2px solid #DDD;
+    border-radius: 5px; */
+}
+.input-img {
+    position: absolute;
+    z-index: 999;
+    top: 11px;
+    left: 10px;
+    width: 22px;
+    height: auto;
+}
+body #root div div.input-group input.inpt {
+    border: 2px solid #DDD;
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+
+
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.container-form {
+    position: absolute;
+    top: 50px;
+    margin: 20px;
+    padding: 16px;
+}
+
+/* input#username.form-control.inpt.mt-1, input#password.form-control.inpt.mt-1 {
+    color: #58595B;
+    background-color: white;
+    font-size: 14px;
+    border: none;
+    padding-bottom: 0;
+} */
+

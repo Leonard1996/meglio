@@ -1,0 +1,101 @@
+.quote-h2 {
+    text-transform: uppercase;
+    color: #FAD02C;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.title-questionnaire {
+    margin-bottom: 15px;
+}
+
+.divider{
+    position: relative;
+}
+.divider:after {
+    position: absolute;
+    content: '';
+    width: 10%;
+    height: 1px;
+    border-bottom: 3px solid #737476;
+    bottom: 0;
+}
+
+.card {
+    border: none;
+}
+
+.card-footer {
+    display: none;
+}
+
+button.btn.btn-questionnaire {
+    background-color: #FAD02C !important;
+    border-color: #FAD02C !important;
+    padding: 11px 8% 11px 8%;
+    font-size: 17px;
+    font-weight: bold;
+    color: #ffffff;
+}
+button.btn.btn-questionnaire:hover{
+    color: #ffffff;
+}
+button.btn.btn-questionnaire:only-child{
+    margin: auto;
+}
+.back {
+    padding-left: 8.5%;
+    padding-right: 8.5%;
+}
+
+.radio-btns {
+    display: flex;
+    gap: 6.5rem;
+    padding-top: 30px;
+}
+
+label.f-title, label.f-title2 {
+    color: #6F7176;
+    text-align: center;
+    display: block;
+    font-weight: 700;
+    font-size: 17px;
+    position: relative;
+    left: 45%;
+}
+
+label.f-title {
+    left: 45%;
+}
+
+label.f-title2 {
+    left: 30%;
+}
+
+.radio-btns:hover, .input-group:hover {
+    background-color: #FCFCFB;
+}
+
+input#residence_province_code {
+    position: relative;
+    left: 80%;
+    width: 295%;
+}
+
+select.form-select {
+    font-weight: 700;
+    color: black;
+    background-color: #FBFAFA;
+    border: 2px solid #CBCBCD;
+    font-weight: 700;
+    color: black;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.footer-buttons{
+    margin: 50px 0 50px 0;
+}

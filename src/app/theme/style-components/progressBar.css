@@ -1,0 +1,61 @@
+.step {
+    color: white;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 18px 0 18px;
+}
+
+.step.completed {
+    background-color: #FAD02C !important;
+    padding: 0 18px 0 18px;
+}
+
+.RSPBprogressBar {
+    height: 50px;
+    line-height: 1;
+    border-radius: 50px;
+    position: relative;
+    background-color: #c4c4c7;
+    display: flex;
+    justify-content: unset;
+    align-items: center;
+    z-index: 0;
+    /*width: 73.4%;*/
+    width: 71.1%;
+    margin-left: 12%;
+}
+
+.RSPBprogression {
+    display: none;
+}
+
+.RSPBstep {
+    left: unset !important;
+    transform: unset !important;
+}
+
+.first-step {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.first-step, .second-step, .third-step {
+    border-right: 3px solid white;
+}
+
+.last-step {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.step-nr {
+    font-size: 23px;
+}
+
+.step-txt {
+    font-size: 16px;
+}

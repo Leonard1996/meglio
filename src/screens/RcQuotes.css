@@ -1,0 +1,10 @@
+.failed-quotations-block {
+    margin-top: 120px;
+}
+.failed-quotations-block img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 6/3;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}

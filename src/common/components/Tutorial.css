@@ -1,0 +1,25 @@
+.border-custom {
+    border: 1px solid #dedede;
+}
+
+.play-btn {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+    z-index: 999;
+}
+
+.pagination li {
+    border-bottom: none;
+}
+
+.active>.page-link.green-stl, .page-link.active.green-stl {
+    z-index: 3;
+    color: #ffffff;
+    background-color: #FAD02C;
+    border-color: #FAD02C;
+}
+
+.page-link.green-stl {
+    color: #FAD02C;
+}
