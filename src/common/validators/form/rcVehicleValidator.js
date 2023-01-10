@@ -88,6 +88,7 @@ const checkSecondStep = (answers) => {
 }
 
 const checkThirdStep = (answers) => {
+    console.log({answers})
     const {
         policy_effective_date,
         other_drivers,
@@ -103,22 +104,22 @@ const checkThirdStep = (answers) => {
         gender,
         guideType,
     } = answers;
-    if(isNullOrEmpty(policy_effective_date)) return { error:true, message: "Tutti i campi sono obbligatori!" }
-    if(isNullOrEmpty(other_drivers)) return { error:true, message: "Tutti i campi sono obbligatori!" }
+    if(isNullOrEmpty(policy_effective_date)) return { error:true, message: "Tutti i campi sono obbligatori!1" }
+    if(isNullOrEmpty(other_drivers)) return { error:true, message: "Tutti i campi sono obbligatori!2" }
     if(other_drivers){
-        if(isNullOrEmpty(youngest_age_driver)) return { error:true, message: "Tutti i campi sono obbligatori!" }
+        if(isNullOrEmpty(youngest_age_driver)) return { error:true, message: "Tutti i campi sono obbligatori!3" }
     }
-    if(isNullOrEmpty(youngest_age_family_member)) return { error:true, message: "Tutti i campi sono obbligatori!" }
-    if(isNullOrEmpty(violations)) return { error:true, message: "Tutti i campi sono obbligatori!" }
-    if(isNullOrEmpty(merit_class)) return { error:true, message: "Tutti i campi sono obbligatori!" }
-    if(isNullOrEmpty(mofified_vehicle)) return { error:true, message: "Tutti i campi sono obbligatori!" }
-    if(isNullOrEmpty(valid_driving_license)) return { error:true, message: "Tutti i campi sono obbligatori!" }
+    if(isNullOrEmpty(youngest_age_family_member)) return { error:true, message: "Tutti i campi sono obbligatori!4" }
+    if(isNullOrEmpty(violations)) return { error:true, message: "Tutti i campi sono obbligatori!5" }
+    if(isNullOrEmpty(merit_class)) return { error:true, message: "Tutti i campi sono obbligatori!6" }
+    if(isNullOrEmpty(mofified_vehicle)) return { error:true, message: "Tutti i campi sono obbligatori!7" }
+    if(isNullOrEmpty(valid_driving_license)) return { error:true, message: "Tutti i campi sono obbligatori!8" }
     if(gender === 'G'){
-        if(isNullOrEmpty(business_name)) return { error:true, message: "Tutti i campi sono obbligatori!" }
-        if(isNullOrEmpty(vat_number)) return { error:true, message: "Tutti i campi sono obbligatori!" }
-        if(isNullOrEmpty(company_type)) return { error:true, message: "Tutti i campi sono obbligatori!" }
+        if(isNullOrEmpty(business_name)) return { error:true, message: "Tutti i campi sono obbligatori!9" }
+        if(isNullOrEmpty(vat_number)) return { error:true, message: "Tutti i campi sono obbligatori!10" }
+        if(isNullOrEmpty(company_type)) return { error:true, message: "Tutti i campi sono obbligatori!11" }
     }
-    if(isNullOrEmpty(guideType)) return { error:true, message: "Tutti i campi sono obbligatori!" }
+    if(isNullOrEmpty(guideType)) return { error:true, message: "Tutti i campi sono obbligatori!12" }
     return { error:false, message:"Valid" }
 }
 

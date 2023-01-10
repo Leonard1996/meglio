@@ -85,7 +85,7 @@ export default function RcVehicle() {
       ? StoredAnswers
       : {
           product: vehicle,
-          source: "meglioquesto.it",
+          source: "meglioquestio.it",
           contractor_is_owner: "",
           contractor_is_driver: "",
           name: "",
@@ -496,7 +496,9 @@ export default function RcVehicle() {
               name="vehicle_plate"
               label="Targa dell auto"
               pattern="/^[A-Z]{2}[0-9]{3}[A-Z]{2} *$/"
-              onChange={(value) => updateFormData({ vehicle_plate: value })}
+              onChange={(value) =>
+                updateFormData({ vehicle_plate: value.toUpperCase() })
+              }
               className="uppercase"
               value={answers.vehicle_plate}
             />
@@ -750,7 +752,7 @@ export default function RcVehicle() {
               onChange={(value) => updateFormData({ other_drivers: value })}
               value={answers.other_drivers}
             />
-            {answers.other_drivers === "si" && (
+            {answers.other_drivers ? (
               <InputText
                 placeholder="(18 - 30)"
                 type="number"
@@ -764,7 +766,7 @@ export default function RcVehicle() {
                 }
                 value={answers.youngest_age_driver}
               />
-            )}
+            ) : null}
             <InputText
               placeholder="(18 - 30)"
               type="number"
@@ -864,7 +866,7 @@ export default function RcVehicle() {
               </>
             )}
             <InputSelect
-              label="Classe di merito."
+              label="Tippo guida"
               name="guide_type"
               id="guide_type"
               placeholder="-Seleziona-"
